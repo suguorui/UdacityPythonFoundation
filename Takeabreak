@@ -1,0 +1,11 @@
+import webbrowser
+import time
+
+break_count = 0
+total_break = 6
+
+print("This program started on "+time.ctime())
+while break_count < total_break:
+    time.sleep(1.5*60*60)
+    webbrowser.open("http://www.dictionary.com/browse/take-a-break")
+    break_count = break_count + 1
