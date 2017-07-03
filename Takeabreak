@@ -5,7 +5,7 @@ break_count = 0
 total_break = 6
 
 print("This program started on "+time.ctime())
-while break_count < total_break:
-    time.sleep(1.5*60*60)
-    webbrowser.open("http://www.dictionary.com/browse/take-a-break")
+while break_count <= total_break:
+    time.sleep(1.5*60*60))
+    webbrowser.open("https://memegenerator.net/instance/58587146/can-haz-cat-im-only-taking-a-short-break-will-be-back-soon")
     break_count = break_count + 1
