@@ -1,0 +1,37 @@
+import media
+import fresh_tomatoes
+
+toy_story = media.Movie("Avatar"
+                        ,"A marine on an alient planet"
+                        ,"https://www.movieposter.com/posters/archive/main/98/MPW-49246"
+                        ,"https://www.youtube.com/watch?v=d1_JBMrrYw8"
+                        )
+#print(toy_story.title)
+
+wonder_woman = media.Movie("The Wonder Woman"
+                           , "The first women super hero"
+                           , "https://cdn.traileraddict.com/content/warner-bros-pictures/wonder-woman-2017-5.jpg"
+                           , "https://www.youtube.com/watch?v=INLzqh7rZ-U"
+                           )
+#print(wonder_women.poster_image_url)
+#wonder_women.show_trailer()
+
+Rise_of_planet_ape = media.Movie("Rise of the Planet of the Apes"
+                                 , "What happen if the Apes are as wise as men"
+                                 , "http://mikecole.org/wp-content/uploads/2012/07/rise-of-the-planet-of-the-apes-review-poster.jpeg"
+                                 , "https://www.youtube.com/watch?v=f8D2NIGEJW8"
+                                 )
+
+#Rise_of_planet_ape.show_trailer()
+
+Iron_man = media.Movie("Iron Man"
+                       ,"an industrialist and master engineer, builds a powered exoskeleton and becomes the technologically advanced superhero Iron Man."
+                       , "http://cdn.collider.com/wp-content/uploads/2015/04/iron-man-1-poster.jpg"
+                       , "https://www.youtube.com/watch?v=8hYlB38asDY"
+                       )
+
+
+
+movies = [toy_story, wonder_woman, Rise_of_planet_ape,Iron_man]
+
+fresh_tomatoes.open_movies_page(movies)
