@@ -1,0 +1,39 @@
+import turtle
+
+def draw_shapes():
+    window = turtle.Screen()
+    window.bgcolor("black")
+    window.screensize(380,1000)
+    
+    brad = turtle.Turtle()
+    brad.shape("turtle")
+    brad.color("white")
+    brad.speed(1)
+
+    n = 0
+    while n<4:
+        brad.forward(100)
+        brad.right(90)
+        n = n + 1
+        
+    angie = turtle.Turtle()
+    angie.shape("classic")
+    angie.color("yellow")
+    angie.speed(1)
+    angie.circle(100)
+
+    cyrus = turtle.Turtle()
+    cyrus.shape("square")
+    cyrus.color("green")
+    cyrus.speed(1)
+
+    i = 0
+    while i<3:
+        cyrus.backward(50)
+        cyrus.left(120)
+        i = i + 1
+    
+    
+    window.exitonclick()
+
+draw_shapes()
